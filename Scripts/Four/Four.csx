@@ -4,7 +4,7 @@
     $@"AntaresAnalyticsEvents | take 1 | project TIMESTAMP, SourceMoniker";
 }
 
-[Definition(Id = "Four1", Name = "", Description = "")]
+[Definition(Id = "Four", Name = "", Description = "")]
 public async static Task<Response> Run(DataProviders dp, OperationContext cxt, Response res)
 {
     res.Dataset.Add(new DiagnosticData()
