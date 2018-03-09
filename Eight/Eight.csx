@@ -1,7 +1,7 @@
 ﻿private static string GetQuery(OperationContext cxt)
 {
     return
-    $@"RoleInstanceHeartbeat | take 2 | project TIMESTAMP, Details";
+    $@"RoleInstanceHeartbeat | take 1 | project TIMESTAMP, Details";
 }
 
 [Definition(Id = "Eight", Name = "", Description = "")]
