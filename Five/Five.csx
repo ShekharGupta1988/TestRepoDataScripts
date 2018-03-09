@@ -1,7 +1,7 @@
 ﻿private static string GetQuery(OperationContext cxt)
 {
     return
-    $@"AntaresBillingControllerEvents | take 1 | project TIMESTAMP, SourceMoniker";
+    $@"AntaresBillingControllerEvents | take 2 | project TIMESTAMP, Role";
 }
 
 [Definition(Id = "Five", Name = "", Description = "")]
